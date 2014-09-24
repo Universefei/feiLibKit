@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Interfaces - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JN\LOKALE~1\Temp\RSP15.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Interfaces.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\ConnectionPoolLib\PoolFactoryDestroyer.cpp"
+"C:\ConnectionPoolLib\Pooling.cpp"
+"C:\ConnectionPoolLib\PoolingImpl.cpp"
+"C:\ConnectionPoolLib\RegistryFacade.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JN\LOKALE~1\Temp\RSP15.tmp" 
+Creating temporary file "C:\DOCUME~1\JN\LOKALE~1\Temp\RSP16.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Interfaces.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\ConnectionPoolLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JN\LOKALE~1\Temp\RSP16.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\ConnectionPool.lib"  .\Release\PoolFactoryDestroyer.obj .\Release\Pooling.obj .\Release\PoolingImpl.obj .\Release\RegistryFacade.obj .\Release\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+PoolFactoryDestroyer.cpp
+Pooling.cpp
+PoolingImpl.cpp
+RegistryFacade.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+ConnectionPool.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
